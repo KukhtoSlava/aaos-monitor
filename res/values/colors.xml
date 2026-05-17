@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ======================================================= -->
+    <!--  M3 Dark Color Scheme                                     -->
+    <!--  Override in res/values-night/ for dynamic day/night.     -->
+    <!-- ======================================================= -->
+
+    <!-- Primary — interactive / selected (purple) -->
+    <color name="m3_primary">#9B59FF</color>
+    <color name="m3_on_primary">#FFFFFF</color>
+    <color name="m3_primary_container">#3D1A80</color>
+    <color name="m3_on_primary_container">#E8D5FF</color>
+    <color name="m3_inverse_primary">#6D40CC</color>
+
+    <!-- Secondary — informational data / highlights (blue) -->
+    <color name="m3_secondary">#38B0FF</color>
+    <color name="m3_on_secondary">#001F36</color>
+    <color name="m3_secondary_container">#003A6B</color>
+    <color name="m3_on_secondary_container">#CCE5FF</color>
+
+    <!-- Tertiary — online / safe / OK status (green) -->
+    <color name="m3_tertiary">#00E5A0</color>
+    <color name="m3_on_tertiary">#003828</color>
+    <color name="m3_tertiary_container">#005139</color>
+    <color name="m3_on_tertiary_container">#B0FFE0</color>
+
+    <!-- Error — alert / door open / critical state (red) -->
+    <color name="m3_error">#FF4060</color>
+    <color name="m3_on_error">#FFFFFF</color>
+    <color name="m3_error_container">#600010</color>
+    <color name="m3_on_error_container">#FFDADA</color>
+
+    <!-- Background & Surface -->
+    <color name="m3_background">#111111</color>
+    <color name="m3_on_background">#FFFFFF</color>
+
+    <color name="m3_surface">#1A1A1A</color>
+    <color name="m3_on_surface">#FFFFFF</color>
+    <color name="m3_surface_variant">#222222</color>
+    <color name="m3_on_surface_variant">#A0A0A0</color>
+
+    <color name="m3_inverse_surface">#E6E1E5</color>
+    <color name="m3_inverse_on_surface">#1C1B1F</color>
+
+    <!-- Outline -->
+    <color name="m3_outline">#33FFFFFF</color>
+    <color name="m3_outline_variant">#14FFFFFF</color>
+
+    <!-- Misc -->
+    <color name="m3_scrim">#000000</color>
+
+    <!-- ======================================================= -->
+    <!--  Custom semantic colors (no M3 equivalent)               -->
+    <!-- ======================================================= -->
+
+    <!-- Warning / caution state (amber) — on dark backgrounds -->
+    <color name="status_warning_dark">#FFB020</color>
+    <!-- Warning / caution state (amber) — on light backgrounds (darkened for contrast) -->
+    <color name="status_warning_light">#B86A00</color>
+
+    <!-- ======================================================= -->
+    <!--  M3 Light Color Scheme                                    -->
+    <!-- ======================================================= -->
+
+    <!-- Primary — interactive / selected (purple) -->
+    <color name="m3_light_primary">#7B3FD6</color>
+    <color name="m3_light_on_primary">#FFFFFF</color>
+    <color name="m3_light_primary_container">#E8D5FF</color>
+    <color name="m3_light_on_primary_container">#1A0040</color>
+    <color name="m3_light_inverse_primary">#9B59FF</color>
+
+    <!-- Secondary — informational data / highlights (blue) -->
+    <color name="m3_light_secondary">#0A6EBF</color>
+    <color name="m3_light_on_secondary">#FFFFFF</color>
+    <color name="m3_light_secondary_container">#CCE5FF</color>
+    <color name="m3_light_on_secondary_container">#001F36</color>
+
+    <!-- Tertiary — online / safe / OK status (green) -->
+    <color name="m3_light_tertiary">#006E47</color>
+    <color name="m3_light_on_tertiary">#FFFFFF</color>
+    <color name="m3_light_tertiary_container">#B0FFE0</color>
+    <color name="m3_light_on_tertiary_container">#003828</color>
+
+    <!-- Error — alert / door open / critical state (red) -->
+    <color name="m3_light_error">#C41230</color>
+    <color name="m3_light_on_error">#FFFFFF</color>
+    <color name="m3_light_error_container">#FFDAD5</color>
+    <color name="m3_light_on_error_container">#410008</color>
+
+    <!-- Background & Surface -->
+    <color name="m3_light_background">#F2F2F2</color>
+    <color name="m3_light_on_background">#1A1A1A</color>
+    <color name="m3_light_surface">#FFFFFF</color>
+    <color name="m3_light_on_surface">#1A1A1A</color>
+    <color name="m3_light_surface_variant">#E5E5E5</color>
+    <color name="m3_light_on_surface_variant">#555555</color>
+    <color name="m3_light_inverse_surface">#2C2C2C</color>
+    <color name="m3_light_inverse_on_surface">#F2F2F2</color>
+
+    <!-- Outline -->
+    <color name="m3_light_outline">#33000000</color>
+    <color name="m3_light_outline_variant">#14000000</color>
+
+    <!-- Misc -->
+    <color name="m3_light_scrim">#000000</color>
+
+</resources>

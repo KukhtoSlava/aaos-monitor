@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.autobox.monitor">
+        <!-- Climate: HVAC_TEMPERATURE_SET, HVAC_FAN_SPEED -->
+        <permission name="android.car.permission.CONTROL_CAR_CLIMATE"/>
+        <!-- Speed: PERF_VEHICLE_SPEED -->
+        <permission name="android.car.permission.CAR_SPEED"/>
+        <!-- Gear: GEAR_SELECTION -->
+        <permission name="android.car.permission.CAR_POWERTRAIN"/>
+        <!-- RPM, oil/coolant temp: ENGINE_RPM, ENGINE_OIL_TEMP, ENGINE_COOLANT_TEMP -->
+        <permission name="android.car.permission.CAR_ENGINE_DETAILED"/>
+        <!-- Doors: DOOR_POS -->
+        <permission name="android.car.permission.CONTROL_CAR_DOORS"/>
+        <!-- Tyres: TIRE_PRESSURE -->
+        <permission name="android.car.permission.CAR_TIRES"/>
+        <!-- Odometer: PERF_ODOMETER -->
+        <permission name="android.car.permission.CAR_MILEAGE"/>
+        <!-- Fuel level: FUEL_LEVEL -->
+        <permission name="android.car.permission.CAR_ENERGY"/>
+        <!-- Fuel capacity: INFO_FUEL_CAPACITY -->
+        <permission name="android.car.permission.CAR_INFO"/>
+    </privapp-permissions>
+</permissions>

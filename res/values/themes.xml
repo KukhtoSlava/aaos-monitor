@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base theme for Monitor. Window chrome (status/nav bar, window background)
+        is always dark. Compose MaterialTheme drives all in-app colors and
+        supports LIGHT/DARK/AUTO switching — but the system bars are not
+        updated dynamically. For a car dashboard this is acceptable; full
+        dynamic chrome would require WindowInsetsControllerCompat in the Activity.
+    -->
+    <style name="Theme.Monitor" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+
+        <!-- Window chrome -->
+        <item name="android:windowBackground">@color/m3_background</item>
+        <item name="android:colorBackground">@color/m3_background</item>
+        <item name="android:statusBarColor">@color/m3_background</item>
+        <item name="android:navigationBarColor">@color/m3_background</item>
+
+        <!-- Light status/nav bar icons = false → white icons on dark bg -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Map standard Android theme attributes to M3 palette -->
+        <item name="android:colorPrimary">@color/m3_primary</item>
+        <item name="android:colorPrimaryDark">@color/m3_primary_container</item>
+        <item name="android:colorAccent">@color/m3_primary</item>
+        <item name="android:textColorPrimary">@color/m3_on_background</item>
+        <item name="android:textColorSecondary">@color/m3_on_surface_variant</item>
+
+    </style>
+
+</resources>

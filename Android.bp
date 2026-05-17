@@ -1,0 +1,43 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+android_app {
+    name: "Monitor",
+    manifest: "AndroidManifest.xml",
+    srcs: ["src/**/*.kt"],
+    resource_dirs: ["res"],
+    libs: ["android.car"],
+    static_libs: [
+        "androidx.activity_activity-compose",
+        "androidx.activity_activity",
+        "androidx.lifecycle_lifecycle-viewmodel",
+        "androidx.lifecycle_lifecycle-viewmodel-ktx",
+        "androidx.lifecycle_lifecycle-viewmodel-compose",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "androidx.annotation_annotation",
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.material3_material3",
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-graphics",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
+        "dagger2",
+        "jsr330",
+    ],
+    plugins: ["dagger2-compiler"],
+    kotlincflags: ["-Xjvm-default=all"],
+    privileged: true,
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-monitor",
+    src: "privapp-permissions-monitor.xml",
+    filename: "privapp-permissions-monitor.xml",
+    sub_dir: "permissions",
+    system_ext_specific: true,
+}

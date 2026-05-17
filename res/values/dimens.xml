@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Layout -->
+    <dimen name="header_height">40dp</dimen>
+    <dimen name="bottom_tab_height">58dp</dimen>
+    <dimen name="climate_column_width">200dp</dimen>
+
+    <!-- Border -->
+    <dimen name="border_stroke">1dp</dimen>
+
+    <!-- Padding / spacing -->
+    <dimen name="padding_xxs">3dp</dimen>
+    <dimen name="padding_xs">4dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_s">6dp</dimen>
+    <dimen name="padding_7">7dp</dimen>
+    <dimen name="padding_m">8dp</dimen>
+    <dimen name="padding_l">12dp</dimen>
+    <dimen name="padding_xl">14dp</dimen>
+    <dimen name="padding_xxl">16dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_s">6dp</dimen>
+    <dimen name="spacing_m">8dp</dimen>
+    <dimen name="spacing_l">10dp</dimen>
+    <dimen name="spacing_xl">12dp</dimen>
+    <dimen name="spacing_xxl">14dp</dimen>
+
+    <!-- Corner radii -->
+    <dimen name="radius_xxs">2dp</dimen>
+    <dimen name="radius_xs">4dp</dimen>
+    <dimen name="radius_s">3dp</dimen>
+    <dimen name="radius_m">6dp</dimen>
+    <dimen name="radius_l">8dp</dimen>
+    <dimen name="radius_xl">10dp</dimen>
+    <dimen name="radius_xxl">12dp</dimen>
+    <dimen name="radius_card">10dp</dimen>
+    <dimen name="radius_info_card">12dp</dimen>
+    <dimen name="radius_car_body">24dp</dimen>
+
+    <!-- Status indicator dot -->
+    <dimen name="indicator_dot_size">7dp</dimen>
+
+    <!-- Buttons -->
+    <dimen name="circle_button_size">54dp</dimen>
+
+    <!-- Fan segments -->
+    <dimen name="fan_segment_size">18dp</dimen>
+
+    <!-- Car schema -->
+    <dimen name="schema_width">100dp</dimen>
+    <dimen name="schema_height">150dp</dimen>
+    <dimen name="schema_body_width">58dp</dimen>
+    <dimen name="schema_body_height">126dp</dimen>
+    <dimen name="door_rect_width">14dp</dimen>
+    <dimen name="door_rect_height">32dp</dimen>
+    <dimen name="trunk_width">44dp</dimen>
+    <dimen name="trunk_height">10dp</dimen>
+
+    <!-- Car schema door offsets -->
+    <dimen name="schema_door_front_offset">36dp</dimen>
+    <dimen name="schema_door_rear_offset">38dp</dimen>
+
+    <!-- Door badge -->
+    <dimen name="door_badge_width">62dp</dimen>
+
+    <!-- Temp bar -->
+    <dimen name="temp_bar_height">6dp</dimen>
+
+    <!-- Typography -->
+    <dimen name="text_label_xs">8sp</dimen>
+    <dimen name="text_label_s">9sp</dimen>
+    <dimen name="text_body_s">10sp</dimen>
+    <dimen name="text_badge">9sp</dimen>
+    <dimen name="text_stat_value">13sp</dimen>
+    <dimen name="text_door_name">13sp</dimen>
+    <dimen name="text_row_value">15sp</dimen>
+    <dimen name="text_drive_value">15sp</dimen>
+    <dimen name="text_tab">16sp</dimen>
+    <dimen name="text_tyre_value">18sp</dimen>
+    <dimen name="text_temp_large">54sp</dimen>
+    <dimen name="text_btn">28sp</dimen>
+    <dimen name="text_mode_badge">9sp</dimen>
+    <dimen name="text_header">10sp</dimen>
+</resources>

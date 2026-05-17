@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.autobox.monitor"
+    android:sharedUserId="android.uid.system">
+
+    <!-- Climate: HVAC_TEMPERATURE_SET, HVAC_FAN_SPEED -->
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_CLIMATE"/>
+    <!-- Speed: PERF_VEHICLE_SPEED -->
+    <uses-permission android:name="android.car.permission.CAR_SPEED"/>
+    <!-- Gear: GEAR_SELECTION -->
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN"/>
+    <!-- RPM, oil/coolant temp: ENGINE_RPM, ENGINE_OIL_TEMP, ENGINE_COOLANT_TEMP -->
+    <uses-permission android:name="android.car.permission.CAR_ENGINE_DETAILED"/>
+    <!-- Doors: DOOR_POS -->
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_DOORS"/>
+    <!-- Tyres: TIRE_PRESSURE -->
+    <uses-permission android:name="android.car.permission.CAR_TIRES"/>
+    <!-- Odometer: PERF_ODOMETER -->
+    <uses-permission android:name="android.car.permission.CAR_MILEAGE"/>
+    <!-- Fuel level: FUEL_LEVEL -->
+    <uses-permission android:name="android.car.permission.CAR_ENERGY"/>
+    <!-- Fuel capacity: INFO_FUEL_CAPACITY -->
+    <uses-permission android:name="android.car.permission.CAR_INFO"/>
+
+
+    <application
+        android:name=".MonitorApplication"
+        android:label="Monitor"
+        android:theme="@style/Theme.Monitor">
+        <activity
+            android:name=".MonitorActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="distractionOptimized" android:value="true"/>
+        </activity>
+    </application>
+</manifest>

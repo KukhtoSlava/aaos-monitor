@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Header -->
+    <string name="header_title">CAR DASHBOARD</string>
+    <string name="mode_driving">● DRIVING</string>
+    <string name="mode_parking">● PARKING</string>
+
+    <!-- Bottom tabs -->
+    <string name="tab_car">CAR</string>
+    <string name="tab_info">INFO</string>
+
+    <!-- Climate -->
+    <string name="climate_driver">DRIVER</string>
+    <string name="climate_passenger">PASSENGER</string>
+    <string name="climate_fan">FAN</string>
+    <string name="climate_temp_format">%.1f°</string>
+
+    <!-- Doors -->
+    <string name="doors_section_title">DOORS &amp; WINDOWS</string>
+    <string name="door_open">OPEN</string>
+    <string name="door_closed">CLOSED</string>
+
+    <!-- Tyre pressure -->
+    <string name="tyres_title">TYRE PRESSURE</string>
+    <string name="tyre_unit">bar</string>
+    <string name="tyre_value_format">%.1f</string>
+    <string name="tyre_fl">FL</string>
+    <string name="tyre_fr">FR</string>
+    <string name="tyre_rl">RL</string>
+    <string name="tyre_rr">RR</string>
+
+    <!-- Engine -->
+    <string name="engine_title">ENGINE</string>
+    <string name="engine_oil_temp">OIL TEMP</string>
+    <string name="engine_coolant">COOLANT</string>
+    <string name="engine_temp_format">%d°C</string>
+
+    <!-- Drive stats -->
+    <string name="drive_title">DRIVE</string>
+    <string name="drive_speed_label">Speed</string>
+    <string name="drive_speed_format">%d km/h</string>
+    <string name="drive_gear_label">Gear</string>
+    <string name="drive_rpm_label">RPM</string>
+    <string name="drive_rpm_format">%.1f ×1000</string>
+    <string name="drive_fuel_label">Fuel</string>
+    <string name="drive_fuel_format">%1$d%%  ·  %2$d km</string>
+
+    <!-- Temp/adjust buttons -->
+    <string name="btn_temp_down">-</string>
+    <string name="btn_temp_up">+</string>
+
+    <!-- Info tab -->
+    <string name="info_title">TRIP &amp; VEHICLE STATS</string>
+
+    <!-- Distance card -->
+    <string name="distance_title">DISTANCE</string>
+    <string name="distance_odometer">Odometer</string>
+    <string name="distance_trip_a">Trip A</string>
+    <string name="distance_trip_b">Trip B</string>
+    <string name="distance_range">Range</string>
+    <string name="distance_km_format">%d km</string>
+
+    <!-- Consumption card -->
+    <string name="consumption_title">CONSUMPTION</string>
+    <string name="consumption_average">Average</string>
+    <string name="consumption_average_format">%.1f l/100</string>
+    <string name="consumption_trip_fuel">Trip Fuel</string>
+    <string name="consumption_trip_fuel_format">%.1f l</string>
+    <string name="consumption_since_refuel">Since Refuel</string>
+    <string name="consumption_fuel">Fuel</string>
+    <string name="consumption_fuel_format">%d%%</string>
+
+    <!-- Performance card -->
+    <string name="performance_title">PERFORMANCE</string>
+    <string name="performance_avg_speed">Avg Speed</string>
+    <string name="performance_max_speed">Max Speed</string>
+    <string name="performance_speed_format">%d km/h</string>
+    <string name="performance_engine_time">Engine Time</string>
+    <string name="performance_engine_time_format">%d h</string>
+    <string name="performance_engine_temp">Engine Temp</string>
+    <string name="performance_engine_temp_format">%d°C</string>
+</resources>
